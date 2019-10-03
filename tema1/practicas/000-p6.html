@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lenguaje HTML</title>
+  </head>
+  <body>
+    <center>
+    <h1>Lenguaje HTML</h1>
+    <h2>Alineación de Imágenes</h2>
+    </center>
+    <hr>
+    <center>
+      <a href="#ancla1">Inicio</a>-
+      <a href="#ancla2">bottom</a>-
+      <a href="#ancla3">Left</a>-
+      <a href="#ancla4">Middle</a>-
+      <a href="#ancla5">Right</a>-
+      <a href="#ancla6">Texttop</a>-
+      <a href="#ancla7">Top</a>
+    </center>
+
+    <hr>
+    <center>
+      <img src="..\img\p6.png" alt="p6" width="250">
+    </center>
+
+    <p>
+      En este artículo vamos a ayudarte a aplicar estilos a las imágenes usando
+      HTML. Pero ten muy en cuenta que actualmente la recomendación (o mejor
+      dicho, lo que marca el estándar) es realizar todo lo que vas a ver aquí
+      mediante CSS.Vimos en su momento el atributo align que nos permitía alinear
+      el texto a derecha, izquierda o centro de nuestra página. Dijimos que este
+      atributo no era exclusivo de la etiqueta <br> < p > sino que podía ser encontrado
+      en otro tipo de etiquetas.Pues bien, < img > resulta ser una de esas etiquetas
+      que aceptan este atributo aunque en este caso el funcionamiento resulta ser diferente.
+      Para alinear una imagen horizontalmente podemos hacerlo de la misma forma
+      que el texto, es decir, utilizando el atributo align dentro de una etiqueta
+      < p > o < div >. En este caso, lo que incluiremos dentro de esa etiqueta será
+      la imagen en lugar del texto:
+    </p>
+
+    <p>
+      El hecho de utilizar el atributo align dentro de la etiqueta < img > nos
+      permite, en el caso de darle los valores left o right, justificar la imagen
+      del lado que deseamos a la vez que rellenamos con texto el lado opuesto.
+      De esta forma embebemos nuestras imágenes dentro del texto de una manera sencilla.
+      Existen otro tipo de valores que puede adoptar el atributo align dentro
+      de la etiqueta < img >. Estos son relativos a la alineación vertical de la imagen.
+      Supongamos que escribimos una línea al lado de nuestra imagen.
+      Esta línea puede quedar por ejemplo arriba, abajo o al medio de la imagen.
+      Asimismo, puede que en una misma línea tengamos varias imágenes de alturas
+      diferentes que pueden ser alineadas de distintas formas.
+    </p>
+
+    <h3> <a name="ancla1">Inicio</a> </h3>
+    <img src="..\img\p6.png" alt="p6" width="250">
+    <p>En este caso he puesto la imágen por defecto, solo he modificado el tamaño.<br>
+      <br>Vimos en su momento el atributo align que nos permitía alinear el texto
+      a derecha, izquierda o centro de nuestra página. Dijimos que este atributo
+      no era exclusivo de la etiqueta < p > sino que podía ser encontrado en otro
+      tipo de etiquetas.Pues bien, < img > resulta ser una de esas etiquetas que
+      aceptan este atributo aunque en este caso el funcionamiento resulta ser diferente.
+      Para alinear una imagen horizontalmente podemos hacerlo de la misma forma
+      que el texto, es decir, utilizando el atributo align dentro de una etiqueta
+      < p > o < div >. En este caso, lo que incluiremos dentro de esa etiqueta
+      será la imagen en lugar del texto
+    </p>
+
+    <h3> <a name="ancla2">Bottom</a> </h3>
+    <p>
+      Ajusta el bajo de la imagen al texto.
+    </p>
+
+    <h3> <a name="ancla3">Left</a> </h3>
+    <p>
+      Ajusta a la izquierda del texto, si queremos que por debajo del texto  no
+      haya nada ponemos un br.
+    </p>
+  </body>
+</html>
