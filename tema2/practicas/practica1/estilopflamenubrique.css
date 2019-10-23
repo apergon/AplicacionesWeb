@@ -11,7 +11,7 @@ a{
 }
 p{
   font-size: 20px;
-  margin: 20px
+  margin: 35px 1px 15px 550px;
 }
 blockquote{
   color: red;
@@ -19,4 +19,20 @@ blockquote{
 address{
   color: black;
   font-weight: bold;
+  margin-top: 40px;
+}
+img {
+  border-style: solid;
+  border-color: red;
+  padding-left:  7px;
+  padding-right: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 550px;
+}
+span.negrita{
+  font-weight: bold;
+}
+span.underline{
+  text-decoration: underline;
 }
