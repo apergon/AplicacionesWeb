@@ -1,3 +1,22 @@
 h1 {
-  align-content: center;
+  color: red;
+}
+body {
+  background-image: url("bg85.gif");
+}
+a{
+  color: blue;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+p{
+  font-size: 20px;
+  margin: 20px
+}
+blockquote{
+  color: red;
+}
+address{
+  color: black;
+  font-weight: bold;
 }
