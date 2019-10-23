@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bordes CSS</title>
+    <style type="text/css">
+      /* Ejemplo 1 */
+      p.dotted {border-style: dotted;}
+      p.dashed {border-style: dashed;}
+      p.solid {border-style: solid;}
+      p.double {border-style: double;}
+      p.groove {border-style: groove;}
+      p.ridge {border-style: ridge;}
+      p.inset {border-style: inset;}
+      p.outset {border-style: outset;}
+      p.none {border-style: none;}
+      p.hidden {border-style: hidden;}
+      p.mix {border-style: dotted dashed solid double;}
+
+      /* Ejemplo 2 */
+      p.one {
+        border-style: solid;
+        border-width: 5px;
+      }
+
+      p.two {
+        border-style: solid;
+        border-width: medium;
+      }
+
+      p.three {
+        border-style: dotted;
+        border-width: 2px;
+      }
+
+      p.four {
+        border-style: dotted;
+        border-width: thick;
+      }
+
+      p.five {
+        border-style: double;
+        border-width: 15px;
+      }
+
+      p.six {
+        border-style: double;
+        border-width: thick;
+      }
+
+      p.seven {
+        border-style: solid;
+        border-width: 2px 10px 4px 20px;
+      }
+
+      /* Ejemplo 3 */
+      p.uno {
+        border-style: solid;
+        border-color: red;
+      }
+
+      p.dos {
+        border-style: solid;
+        border-color: green;
+      }
+
+      p.tres {
+        border-style: solid;
+        border-color: red green blue yellow;
+      }
+
+      /* Ejemplo 4 */
+      p.ejem4 {
+        border-top-style: dotted;
+        border-right-style: solid;
+        border-bottom-style: dotted;
+        border-left-style: solid;
+      }
+
+      /* Ejemplo 5 */
+      p.ejem5 {
+        border-style: dotted solid;
+      }
+
+      /* Ejemplo 6 */
+      p.ejem6 {
+        border: 5px solid red;
+      }
+
+      /* Ejemplo 7 */
+      p.ejem7 {
+        border-left: 6px solid red;
+        background-color: lightgrey;
+      }
+
+        /* Ejemplo 8 */
+      p.ejem8 {
+        border-bottom: 6px solid red;
+        background-color: lightgrey;
+      }
+
+      /* Ejemplo 9 */
+      p.normal {
+        border: 2px solid red;
+      }
+
+      p.round1 {
+        border: 2px solid red;
+        border-radius: 5px;
+      }
+
+      p.round2 {
+        border: 2px solid red;
+        border-radius: 8px;
+      }
+
+      p.round3 {
+        border: 2px solid red;
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ejemplo Número 1</h1>
+    <h2>Propiedades de Borde</h2>
+    <p class="dotted">A dotted border.</p>
+    <p class="dashed">A dashed border.</p>
+    <p class="solid">A solid border.</p>
+    <p class="double">A double border.</p>
+    <p class="groove">A groove border.</p>
+    <p class="ridge">A ridge border.</p>
+    <p class="inset">An inset border.</p>
+    <p class="outset">An outset border.</p>
+    <p class="none">No border.</p>
+    <p class="hidden">A hidden border.</p>
+    <p class="mix">A mixed border.</p>
+
+    <h1>Ejemplo Número 2</h1>
+    <p class="one">Some text.</p>
+    <p class="two">Some text.</p>
+    <p class="three">Some text.</p>
+    <p class="four">Some text.</p>
+    <p class="five">Some text.</p>
+    <p class="six">Some text.</p>
+    <p class="seven">Some text.</p>
+
+    <h1>Ejemplo Número 3</h1>
+    <p class="uno">A solid red border</p>
+    <p class="dos">A solid green border</p>
+    <p class="tres">A solid multicolor border</p>
+    <p>
+      <b>Nota:</b>La Propiedad "border-color" no funciona si se usa sola.
+      Use la Propiedad border-style en solid, para establecer primero los
+      bordes.
+    </p>
+
+    <h1>Ejemplo Número 4</h1>
+    <p class="ejem4">2 diferentes tipos de borde.</p>
+
+    <h1>Ejemplo Número 5</h1>
+    <p class="ejem5">2 diferentes tipos de borde, hecho de manera deiferente al 4.</p>
+
+    <h1>Ejemplo Número 6</h1>
+    <p class="ejem6">This property is a shorthand property for border-width, border-style, and border-color.</p>
+
+    <h1>Ejemplo Número 7</h1>
+    <p class="ejem7">This property is a shorthand property for border-left-width, border-left-style, and border-left-color.</p>
+
+    <h1>Ejemplo Número 8</h1>
+    <p class="ejem8">This property is a shorthand property for border-bottom-width, border-bottom-style, and border-bottom-color.</p>
+
+    <h1>Ejemplo Número 9</h1>
+    <p class="normal">Normal border</p>
+    <p class="round1">Round border</p>
+    <p class="round2">Rounder border</p>
+    <p class="round3">Roundest border</p>
+    <p><b>Note:</b> The "border-radius" property is not supported in IE8 and earlier versions.</p>
+
+  </body>
+</html>
