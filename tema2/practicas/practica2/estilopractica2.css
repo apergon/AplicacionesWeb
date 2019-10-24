@@ -1,0 +1,49 @@
+h1 {
+  color: teal;
+}
+strong {
+  color: red;
+}
+span.destacado {
+  color: orange;
+}
+h2 {
+  color: blue;
+}
+a {
+  color: red;
+}
+a > em {
+  color: blue;
+}
+caption {
+  color: blue;
+}
+th {
+  color: red;
+}
+th.especial {
+  color: orange;
+}
+td > strong {
+  color: orange;
+}
+td {
+  color: green;
+}
+div.adicional {
+  color: olive;
+}
+span.especial {
+  color: fuchsia;
+}
+p > a.green {
+  color: lightgreen;
+}
+body{
+  font-style: Arial;
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
