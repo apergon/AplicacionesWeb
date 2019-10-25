@@ -1,0 +1,39 @@
+table {
+  background: white;
+}
+body {
+  color: grey;
+  width: 100%;
+}
+th.white {
+  color: white;
+  font-size: 20px;
+  background: #FF5656;
+  font-family: "Segoe UI";
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+button.white {
+  background-color: #FF5656;
+  border: 0px;
+  color: white;
+  padding: 15px;
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+span.bold {
+  font-weight: bold;
+  color: black;
+}
+table {
+  padding: 189px;
+  background-color: #F1EFEF;
+  border-spacing: 15px;
+}
+td {
+  background-color: white;
+}
+span.normal {
+  font-family: "Sherif";
+  font-weight: normal;
+}
