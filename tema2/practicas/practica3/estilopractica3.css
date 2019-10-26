@@ -26,12 +26,12 @@ span.bold {
   color: black;
 }
 table {
-  padding: 189px;
   background-color: #F1EFEF;
-  border-spacing: 15px;
+  border-spacing: 8px;
 }
 td {
   background-color: white;
+  line-height: 30px;
 }
 span.normal {
   font-family: "Sherif";
