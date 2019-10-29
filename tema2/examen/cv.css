@@ -50,3 +50,10 @@ h1.uno {
 div.body {
   font-size: 15px;
 }
+h4.heads {
+  color: #00D1FF;
+}
+h3.estilo {
+  color: #002A4D;
+  font-weight: bold;
+}
