@@ -12,7 +12,7 @@ body {
 span.negrita {
   font-weight: bold;
 }
-h1 {
+h1.head {
   color: white;
   font-size: 50px;
 }
@@ -32,4 +32,21 @@ span.imgs {
 }
 img.foto {
   margin-right: 80px;
+  border-color: black;
+  border-style: solid;
+  border-width: 10px;
+}
+img.twitter {
+  margin-right: 465px;
+}
+div.body {
+  background-color: white;
+}
+h1.uno {
+  background-color: #002A4D;
+  background-size: auto;
+  color: white;
+}
+div.body {
+  font-size: 15px;
 }
