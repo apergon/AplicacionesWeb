@@ -14,9 +14,22 @@ span.negrita {
 }
 h1 {
   color: white;
+  font-size: 50px;
 }
 div.fondo {
   background-image: url("img/cielom.jpg");
   background-size: 100%;
   color: white;
+}
+span.blue {
+  color: lightblue;
+}
+hr {
+  width: 22em;
+}
+span.imgs {
+  padding-left: 300px;
+}
+img.foto {
+  margin-right: 80px;
 }
