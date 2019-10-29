@@ -1,7 +1,22 @@
 a {
   text-decoration: none;
-  color: white;
+  color: lightblue;
 }
 body {
   background-color: #00557A;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  margin-right: 65px;
+  margin-left: 65px;
+}
+span.negrita {
+  font-weight: bold;
+}
+h1 {
+  color: white;
+}
+div.fondo {
+  background-image: url("img/cielom.jpg");
+  background-size: 100%;
+  color: white;
 }
