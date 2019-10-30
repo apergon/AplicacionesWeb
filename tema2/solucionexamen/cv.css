@@ -1,6 +1,6 @@
 body {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: #00245e;
 }
 h1 {
@@ -47,7 +47,7 @@ img.perfil {
   border: 8px solid white;
 }
 
-table {
+table.uno {
   background-image: url(img/cielo-azul-nubes.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,4 +75,46 @@ td.center {
   font-size: 12px;
   text-align: center;
   font-weight: bold;
+}
+
+table.dos {
+  background-color: white;
+  width: 100%;
+  padding: 10px 15px;
+}
+
+h2.h2 {
+  color: white;
+  background-color: #00245e;
+  width: 38%;
+}
+
+p.black {
+  color: black;
+}
+
+h4.h4 {
+  color: lightblue;
+}
+
+h2.h2dos {
+  color: white;
+  background-color: #00245e;
+  width: 38%;
+  font-size: 16px;
+}
+
+ul.black {
+  color: black;
+}
+
+td.alinear {
+  vertical-align: top;
+}
+
+h2.h23 {
+  color: white;
+  background-color: #00245e;
+  width: 38%;
+  font-size: 20px;
 }
