@@ -1,0 +1,10 @@
+div.primero {
+  border: 1px solid gray;
+  padding-left: 15px;
+  margin: 1px;
+}
+div.segundo {
+  border: 1px solid gray;
+  padding: 15px;
+  margin: 6px;
+}
